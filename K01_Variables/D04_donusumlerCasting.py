@@ -10,3 +10,8 @@ y = input('2. sayıyı giriniz: ')  # Bunları str olarak alacaktır.
 toplam = int(x) + int(y)    # str olan değerleri int yapıp toplayacaktır
 
 print(toplam)
+print(type(x)) # x -- str casting yaparken atama yapılmadığı sürece değişken tipi değişmez
+
+x = int(x)
+
+print(type(x))
